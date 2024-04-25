@@ -2,7 +2,8 @@ let showMenu = document.getElementById('menu_icon')
 let menuLinks = document.querySelector('.div-links')
 let arrow = document.getElementById('show-submenu')
 let submenu = document.querySelector('.nav-link-submenu')
-let menuArea = document.getElementById('close')
+let getHtml = document.getElementsByTagName('main')
+let menuArea = getHtml[0]
 
 showMenu.addEventListener('click', () => { 
     menuLinks.classList.toggle('div-links-show')
