@@ -302,6 +302,60 @@ nav {
    width: 50%;
 }
 
+.contacto-main {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 3em 0 5em 0;
+}
+
+.form {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 2em 1.5em;
+    margin: 0 auto;
+}
+
+.form-container {
+    width: 100%;
+    display: grid;
+    gap: 2em;
+    grid-auto-columns: 100%;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form-input {
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 2px solid var(--azul-fuerte);
+    border-radius: .4em;
+}
+
+.form-input-message {
+    resize: none;
+    padding: 1.2em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--azul-cielo);
+    color: white;
+    border: none;
+    border-radius: .4em;
+    padding: .7em 0;
+    cursor: pointer;
+}
 
 /* footer */
 
